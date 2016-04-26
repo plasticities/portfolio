@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,300,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,400);
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,main,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* === MY STYLES === */
+
+body {
+    background: #f5f5f5;
+} 
+
+#wrapper {
+    background: #202020;
+    max-width: 100%;
+    height: 90px;
+
+}
+
+#wrapper1 {
+    background: #1c69eb;
+    max-width: 100%;
+    height: 40px;
+}
+
+#wrapper2{
+    background: #f5f5f5;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    max-height: 100%;
+} 
+
+h1, h2, h3 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    padding-top: 35px;
+}
+
+/* === NAV STUFF HERE */
+nav {
+    margin-bottom: 20px;
+}
+
+nav li {
+    margin: 10px 5px 10px 0;
+    padding: 0;
+    display: inline-block;
+    *display: inline; /* ie7 */
+}
+
+nav a {
+    padding: 6px 12px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+    line-height: 100%;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+nav .current a{
+    color: #ffffff;
+}
+
+main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 12px;
+}
+
+main h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.profile{
+    width:287px;
+    height:309px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:0 0 0 -135px;
+}
+
+main p {
+    font-family: 'Robto', serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+main li {
+    margin: 10px 5px 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    display: inline-block;
+    *display: inline; /* ie7 */
+}
+
+main a {
+    text-decoration: none;
+    color: #999;
+    line-height: 100%;
+}
+
+main a:hover {
+    color: #000;
+}
+

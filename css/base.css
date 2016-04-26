@@ -1,0 +1,443 @@
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* CSS Reset
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-weight: normal;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after {
+    content: '';
+    content: none;
+}
+del {
+    text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a img {
+    border: none;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Globals
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #2C3E50;
+}
+a:hover {
+    color: #2C3E50;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+#main {
+    padding: 30px 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+header {
+    padding-top: 30px;
+}
+
+
+#title {
+    text-align: center;
+}
+#title h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title2 {
+    font-weight: 300;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+} 
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Work Pages
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+
+.ind_work {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.intro {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.portrait {
+    float: left;
+    padding-right: 25px;
+}
+
+.intro p {
+    margin: 30px 0;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.intro a {
+    color: #2C3E50;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.intro a:hover {
+    color: #E74C3C;
+}
+
+#work_title h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+#work_title h4 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+}
+
+#work_title p {
+    margin: 30px 0;
+    margin-right: 250px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid #2C3E50;
+    color: #2C3E50;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.button:hover {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.work_mockup img {
+    margin: 40px 0;
+}
+
+.two-col {
+    width: 100%;
+}
+
+.col2 {
+    width: 100%;
+    margin-top:-40px;
+}
+.col2 img {
+    float: left;
+    width: 50%;
+}
+
+.colu {
+    float: left;
+    margin: 100px auto;
+}
+
+.projectlinks2-2 {
+    float: right;
+}
+
+.colu h6 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #666666;
+}
+
+.colu h5 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.colu a {
+    display: inline-block;
+    color: #2C3E50;
+     -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.colu a:hover {
+    color: #E74C3C;
+}
+
+
+
+/*
+ * CSS Animations
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene .scene_element {
+  animation-duration: 1.00s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.m-scene .scene_element--fadein {
+  animation-name: fadeIn;
+}
+
+.m-scene.is-exiting .scene_element {
+  animation-direction: alternate-reverse;
+}
+
+/*
+ * Keyframes
+ */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Media Queries
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ 
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    #title h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .intro {
+    width: 80%;
+    margin: 30px auto;
+    }
+}
+
+@media all and (max-width: 600px) { 
+    #title h1 {
+        font-size: 20px
+    }
+}
+
+@media all and (max-width: 615px) { 
+
+    .container {
+    padding: 0 10px;
+    }
+    
+    .intro {
+    width: 100%;
+    margin: 50px 0;
+    }
+    
+    .portrait {
+    float: none;
+    width: 100%;
+    padding-right: 0px;
+    } 
+    
+    .intro p {
+    margin-top: 20px;
+    }
+
+    .ind_work {
+    width: 100%;
+    margin: 80px 5px;
+    }
+
+    #work_title p {
+    margin: 30px 0;
+    margin-right: 0px;
+    }
+
+    .projectlinks2-2 {
+    float: none;
+    clear: both;
+    }
+}
+@media all and (max-width: 480px) {
+   
+    .intro {
+    width: 100%;
+    margin: 50px 5px;
+    }
+    
+    .portrait {
+    float: none;
+    padding-right: 0px;
+    } 
+    .intro p {
+    margin-top: 20px;
+    }
+}
+@media all and (max-width: 360px) { 
+    .intro {
+    width: 100%;
+    margin: 30px 5px;
+    }
+}
